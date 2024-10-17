@@ -10,7 +10,7 @@ export default function Skills() {
     <Section className="flex flex-col items-start gap-4">
       <Badge variant={"outline"}>Skills</Badge>
       <h2 className="pb-2 text-3xl font-semibold tracking-tight first:mt-0">
-        Ich arbeite gerne an...
+        Ich arbeite gerne an anspruchsvollen und kreativen Projekten.
       </h2>
       <div className="flex max-md:flex-col gap-4">
         <div className="flex flex-col gap-2 flex-1">
