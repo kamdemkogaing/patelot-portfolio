@@ -25,8 +25,7 @@ export default function Skills() {
           <p className="text-sm text-muted-foreground">
             Ich verfüge über Kenntnisse in HTML, CSS, JavaScript,{" "}
             <Code>React.js</Code>, <Code>Next.js</Code>, <Code>TypeScript</Code>{" "}
-            sowie modernen Frameworks wie <Code>Tailwind CSS</Code> und
-            Bootstrap...
+            sowie modernen Frameworks wie Tailwind CSS und Bootstrap...
           </p>
         </div>
 
