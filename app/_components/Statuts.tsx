@@ -11,8 +11,10 @@ import {
   StickyNote,
   Weight,
 } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import Section from "./Section";
+import pkIcon from "/app/pk_icon.png";
 
 export const Statuts = () => {
   return (
@@ -48,21 +50,21 @@ export const Statuts = () => {
           <p className="text-lg text-muted-foreground">Mich kontaktieren:</p>
           <ContactCard
             url="https://www.linkedin.com/in/patrick-kamdem-b88b3630b/"
-            image="https://patelot.de/img/kamdem.png"
+            image="../pk_icon.png"
             mediumImage="https://e7.pngegg.com/pngimages/602/665/png-clipart-linkedin-linkedin-thumbnail.png"
             name="@patrick-kamdem-b88b3630b"
             description="20'00"
           />
           <ContactCard
             url="https://www.xing.com/profile/Patrick_Kamdem3"
-            image="https://patelot.de/img/kamdem.png"
+            image="../pk_icon.png"
             mediumImage="https://img.icons8.com/?size=512&id=13979&format=png"
             name="@Patrick_Kamdem3"
             description="24'00"
           />
           <ContactCard
             url="mailto:patrick-kamdem@patelot.de"
-            image="https://patelot.de/img/kamdem.png"
+            image="../pk_icon.png"
             mediumImage="https://img.freepik.com/freie-psd/entwurf-des-telefonsymbols_23-2151311652.jpg"
             name="patrick-kamdem@patelot.de"
             description="24'00"
@@ -79,7 +81,7 @@ const SIDE_PROJECTS: SideProjectProps[] = [
     title: "My Portfolio",
     description:
       "Mein Name ist Patrick Kamdem, und ich bin ein engagierter Frontend-Entwickler mit umfassender Erfahrung in der Entwicklung moderner, benutzerfreundlicher Webanwendungen.",
-    url: "https://portfolio.patelot.de/",
+    url: "https://patelot.de/",
   },
   {
     Logo: Code,
@@ -93,7 +95,7 @@ const SIDE_PROJECTS: SideProjectProps[] = [
     title: "Passwort Generator",
     description:
       "Sicher und zufällig erstelltes Passwort, das den höchsten Sicherheitsstandards entspricht und ideal für den Schutz Ihrer sensiblen Daten ist.",
-    url: "https://patelot.de/projekte",
+    url: "https://dummy.patelot.de/projekte",
   },
   {
     Logo: Rss,
@@ -213,9 +215,9 @@ export const ContactCard = (props: {
     <Link href={props.url!} className="w-full">
       <Card className="p-3 bg-accent/10 hover:bg-accent/30 transition-colors group flex items-center gap-4">
         <div className="relative">
-          <img
+          <Image
             className="w-10 h-10 rounded-full object-contain"
-            src={props.image}
+            src={pkIcon}
             alt={props.name}
           />
           <img

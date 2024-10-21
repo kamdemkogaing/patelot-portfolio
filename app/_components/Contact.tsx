@@ -12,21 +12,21 @@ export default function Conatact() {
       <div className="flex max-md:flex-col w-full gap-4">
         <ContactCard
           url="https://www.linkedin.com/in/patrick-kamdem-b88b3630b/"
-          image="https://patelot.de/img/kamdem.png"
+          image="pk_icon.png"
           mediumImage="https://e7.pngegg.com/pngimages/602/665/png-clipart-linkedin-linkedin-thumbnail.png"
           name="@patrick-kamdem-b88b3630b"
           description="Ich bin auf LinkedIn"
         />
         <ContactCard
           url="https://www.xing.com/profile/Patrick_Kamdem3"
-          image="https://patelot.de/img/kamdem.png"
+          image="pk_icon.png"
           mediumImage="https://img.icons8.com/?size=512&id=13979&format=png"
           name="@Patrick_Kamdem3"
           description="Ich bin auf XING"
         />
         <ContactCard
           url="mailto:patrick-kamdem@patelot.de"
-          image="https://patelot.de/img/kamdem.png"
+          image="pk_icon.png"
           mediumImage="https://img.freepik.com/freie-psd/entwurf-des-telefonsymbols_23-2151311652.jpg"
           name="patrick-kamdem@patelot.de"
           description="Schick mir eine Email"
