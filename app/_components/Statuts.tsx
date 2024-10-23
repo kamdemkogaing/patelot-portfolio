@@ -102,7 +102,7 @@ const SIDE_PROJECTS: SideProjectProps[] = [
     title: "Passwort Generator",
     description:
       "Sicher und zufällig erstelltes Passwort, das den höchsten Sicherheitsstandards entspricht und ideal für den Schutz Ihrer sensiblen Daten ist.",
-    url: "https://dummy.patelot.de/projekte",
+    url: "https://pwd-generator.patelot.de/",
   },
   {
     Logo: Rss,
