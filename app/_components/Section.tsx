@@ -1,4 +1,7 @@
+//npx shadcn@latest init
+//In vielen Projekten wird eine Utility-Funktion namens cn oder classnames verwendet, um CSS-Klassen programmgesteuert zusammenzufügen.
 import { cn } from "@/lib/utils";
+
 import { PropsWithChildren } from "react";
 
 export default function Section(

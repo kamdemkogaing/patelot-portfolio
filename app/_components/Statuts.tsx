@@ -81,7 +81,7 @@ const SIDE_PROJECTS: SideProjectProps[] = [
     title: "My Portfolio",
     description:
       "Mein Name ist Patrick Kamdem, und ich bin ein engagierter Frontend-Entwickler mit umfassender Erfahrung in der Entwicklung moderner, benutzerfreundlicher Webanwendungen.",
-    url: "https://patelot.de/",
+    url: "https://portfolio.patelot.de/",
   },
   {
     Logo: Code,
@@ -89,6 +89,13 @@ const SIDE_PROJECTS: SideProjectProps[] = [
     description:
       "Erstellen Sie mit wenigen Klicks maßgeschneiderte, responsive Box-Layouts für Ihre Website. Unser Tool ermöglicht es Ihnen, individuelle Designs zu generieren, die sich perfekt an verschiedene Bildschirmgrößen anpassen – schnell, effizient und ganz ohne Programmierkenntnisse.",
     url: "https://boxy.patelot.de/",
+  },
+  {
+    Logo: Code,
+    title: "Countries Selection",
+    description:
+      "Das Projekt gibt einen Überblick über die Hauptstadt und die ungefähre Bevölkerungszahl der genannten Länder.",
+    url: "https://countries.patelot.de/",
   },
   {
     Logo: StickyNote,
