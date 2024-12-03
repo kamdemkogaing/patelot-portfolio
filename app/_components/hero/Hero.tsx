@@ -1,11 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
 
-import { Section } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import myImg from "../../my_face_pk.png";
 import { Code } from "../helpers/Code";
+import Section from "../helpers/Section";
 import { LinkedinIcon } from "../icons/LinkedinIcon";
-import myImg from "../imgs/my_face_pk.png";
 
 export default function Hero() {
   return (

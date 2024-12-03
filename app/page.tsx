@@ -1,10 +1,11 @@
-import Conatact from "./_components/Contact";
-import Footer from "./_components/Footer";
-import Header from "./_components/Header";
-import Hero from "./_components/Hero";
-import Skills from "./_components/Skills";
-import { Spacing } from "./_components/Spacing";
-import { Statuts } from "./_components/Statuts";
+import Conatact from "./_components/contact/Contact";
+import Footer from "./_components/footer/Footer";
+import Header from "./_components/header/Header";
+import Hero from "./_components/hero/Hero";
+
+import { Spacing } from "./_components/helpers/Spacing";
+import Skills from "./_components/skills/Skills";
+import { Statuts } from "./_components/status/Statuts";
 
 export default function Home() {
   return (
@@ -18,6 +19,8 @@ export default function Home() {
       <Skills />
       <Spacing size="md" />
       <Conatact />
+      <Spacing size="md" />
+      {/* <Dummy /> */}
       <Spacing size="md" />
       <Footer />
     </main>

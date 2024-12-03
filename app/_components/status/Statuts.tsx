@@ -105,6 +105,13 @@ const SIDE_PROJECTS: SideProjectProps[] = [
     url: "https://pwd-generator.patelot.de/",
   },
   {
+    Logo: Code,
+    title: "Taskmate - ToDoList",
+    description:
+      "Diese einfache To-Do-Liste demonstriert die Verwendung von React für das Erstellen und Verwalten einer Liste von Aufgaben.",
+    url: "https://todolist.patelot.de/",
+  },
+  {
     Logo: Rss,
     title: "AI Domain Suche",
     description: "Finden Sie den perfekten Domainnamen für Ihre Firma.",

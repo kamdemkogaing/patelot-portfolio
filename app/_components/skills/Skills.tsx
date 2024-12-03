@@ -1,5 +1,6 @@
 import { Badge } from "@/components/ui/badge";
-import { Code, Section } from "lucide-react";
+import { Code } from "../helpers/Code";
+import Section from "../helpers/Section";
 import { ReactLogo } from "../icons/ReactLogo";
 import { TailwindLogo } from "../icons/TailwindLogo";
 import { WebDev } from "../icons/WebDev";

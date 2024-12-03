@@ -1,5 +1,5 @@
 import { Badge } from "@/components/ui/badge";
-import { Section } from "lucide-react";
+import Section from "../helpers/Section";
 import { ContactCard } from "../status/Statuts";
 
 export default function Conatact() {
