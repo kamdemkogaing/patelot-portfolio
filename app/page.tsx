@@ -21,6 +21,7 @@ export default function Home() {
       <Conatact />
       <Spacing size="md" />
       {/* <Dummy /> */}
+      {/* <AppReducer /> */}
       <Spacing size="md" />
       <Footer />
     </main>
