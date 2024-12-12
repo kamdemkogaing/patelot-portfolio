@@ -112,6 +112,13 @@ const SIDE_PROJECTS: SideProjectProps[] = [
     url: "https://todolist.patelot.de/",
   },
   {
+    Logo: StickyNote,
+    title: "Cinemate - Movie Programm",
+    description:
+      "Entdecke mit Cinemate die Welt des Kinos neu! Unser übersichtliches Programm bietet dir aktuelle Filmhighlights, kommende Premieren und zeitlose Klassiker auf einen Blick. Egal ob Blockbuster, Indie-Perle oder Familienfilm – mit Cinemate findest du immer den perfekten Film für jeden Anlass.",
+    url: "https://cinemate.patelot.de/",
+  },
+  {
     Logo: Rss,
     title: "AI Domain Suche",
     description: "Finden Sie den perfekten Domainnamen für Ihre Firma.",
