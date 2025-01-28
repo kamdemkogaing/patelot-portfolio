@@ -14,7 +14,9 @@ export default function Hero() {
         <h2 className="font-caption text-5xl text-primary font-bold">
           Patrick Kamdem
         </h2>
-        <h3 className="text-3xl font-caption">Software Developer / Frontend</h3>
+        <h3 className="text-3xl font-caption">
+          Software - Developer / Frontend
+        </h3>
         <p className="text-base">
           Ich bin ein engagierter
           <Link href="https://www.linkedin.com/in/patrick-kamdem-b88b3630b">
