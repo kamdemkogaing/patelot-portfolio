@@ -3,6 +3,7 @@ import { GeistSans } from "geist/font/sans";
 import { GeistMono } from "geist/font/mono";
 import type { Metadata } from "next";
 import { Anek_Telugu } from "next/font/google";
+import Script from "next/script"; // ✅ Next.js optimiertes Script-Tag
 import "./globals.css";
 
 const AnekTelugu = Anek_Telugu({
@@ -11,8 +12,8 @@ const AnekTelugu = Anek_Telugu({
 });
 
 export const metadata: Metadata = {
-  title: "Patrick Kamdem . Software Developer",
-  description: "Online educator about React, Tailwind, Next.js and TypeScript",
+  title: "Patrick Kamdem - Software Developer",
+  description: "Online educator about React, Tailwind, Next.js, and TypeScript",
 };
 
 export default function RootLayout({
@@ -30,6 +31,22 @@ export default function RootLayout({
           "font-sans h-full bg-background text-foreground"
         )}
       >
+        {/* ✅ Google Analytics mit Next.js optimiert */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-YEBEEH03Y8"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-YEBEEH03Y8', {
+              page_path: window.location.pathname,
+            });
+          `}
+        </Script>
+
         {children}
       </body>
     </html>
