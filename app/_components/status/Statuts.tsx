@@ -144,12 +144,21 @@ type WorkProps = {
 
 const WORKS: WorkProps[] = [
   {
+    image:
+      "https://www.printequipment.de/wp-content/uploads/2021/12/PE_Logo-300x138.png",
+    title: "PE GmbH",
+    role: "Senior FE Dev & E-Com Sales Mgr",
+    date: "2024 - Heute",
+    url: "https://shop.printequipment.de",
+    freelance: true,
+  },
+  {
     image: "https://www.ionos.de/_next/static/media/ionos.b2910554.svg",
     title: "IONOS",
     role: "Software Developer",
-    date: "2014 - Heute",
+    date: "2014 - 2024",
     url: "https://www.ionos.de",
-    freelance: true,
+    freelance: false,
   },
   {
     image:
