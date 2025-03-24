@@ -169,7 +169,7 @@ const WORKS: WorkProps[] = [
     url: "https://www.goetz-auktion.de",
   },
   {
-    image: "https://www.siemens.com/assets/static/logo-white.2f518675.svg",
+    image: "https://cdn.worldvectorlogo.com/logos/siemens-ag-logo.svg",
     title: "Siemens",
     role: "Praktikant",
     date: "2012 - 2013",
